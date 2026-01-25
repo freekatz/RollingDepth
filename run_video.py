@@ -462,7 +462,7 @@ if "__main__" == __name__:
         raise ValueError(f"Unsupported dtype: {args.dtype}")
 
     pipe: RollingDepthPipeline = RollingDepthPipeline.from_pretrained(
-        args.checkpoint, torch_dtype=dtype
+        args.checkpoint, variant='fp16'
     )  # type: ignore
 
     try:

@@ -1,0 +1,13 @@
+LICENSE-MODEL.txt
+LICENSE.txt
+README.md
+setup.py
+rollingdepth/__init__.py
+rollingdepth/depth_aligner.py
+rollingdepth/rollingdepth_pipeline.py
+rollingdepth/video_io.py
+rollingdepth.egg-info/PKG-INFO
+rollingdepth.egg-info/SOURCES.txt
+rollingdepth.egg-info/dependency_links.txt
+rollingdepth.egg-info/requires.txt
+rollingdepth.egg-info/top_level.txt
